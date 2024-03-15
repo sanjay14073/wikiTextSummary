@@ -1,0 +1,108 @@
+/* Global styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card styles */
+.card {
+  padding: 2em;
+}
+
+/* "Read the Docs" link styles */
+.read-the-docs {
+  color: #888;
+}
+
+/* Main container styles */
+.main {
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Heading styles */
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styles */
+button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Summary container styles */
+.summary-container {
+  margin-top: 20px;
+}
+
+/* Loading container styles */
+.loading-container {
+  margin-top: 20px;
+  color: #007bff;
+  animation: pulse 1.5s infinite;
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
